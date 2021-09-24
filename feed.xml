@@ -23,7 +23,6 @@ layout: null
         {% endfor %}
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
       </item>
     {% endfor %}
   </channel>
